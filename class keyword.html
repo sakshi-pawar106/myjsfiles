@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	class Person {
+    constructor(uName,uAge) {
+        this.name = uName;
+        this.age = uAge;
+    }
+    details() {
+        console.log(`The age of ${this.name} is ${this.age} years`);
+    }
+}
+const p = new Person("Thinkify",11);
+p.details();
+
+const q = new Person("Sakshi",22);
+q.details();
+
+const a = new Person();
+a.details();
+	
+</script>
+</body>
+</html>
